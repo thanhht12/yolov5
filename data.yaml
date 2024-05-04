@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['0']
+
+roboflow:
+  workspace: t-s-nanda-kishore-1alay
+  project: tank-detection-medgr
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/t-s-nanda-kishore-1alay/tank-detection-medgr/dataset/1
